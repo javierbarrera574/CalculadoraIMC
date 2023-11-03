@@ -94,8 +94,7 @@ namespace CalculadoraIMC
 
         private void btSalir_Clicked(object sender, EventArgs e)
         {
-          //  Environment.Exit(0);//-->PARA EL PROYECTO CalculadorIMC.UWP(FUNCIONA)
-            OnBackButtonPressed();//-->PARA EL PROYECTO CalculadorIMC.Androiud(EN TEORIA)
+            OnBackButtonPressed();
         }
 
         protected override bool OnBackButtonPressed()
