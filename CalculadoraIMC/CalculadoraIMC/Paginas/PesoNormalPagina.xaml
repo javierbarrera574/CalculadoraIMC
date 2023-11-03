@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculadoraIMC.Paginas.PesoNormalPagina">
+    <StackLayout>
+        <Image Source="PesoNormal.jpg" HorizontalOptions="Fill" VerticalOptions="Fill"
+   Aspect="AspectFit" />
+
+        <Label x:Name="lblPesoNormal" Text="Estas bien, maldito insecto" TextColor="Red" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
+   FontSize="24" />
+
+        <Button Text="Volver" Clicked="OnBackToMainPageClicked" HorizontalOptions="Center" VerticalOptions="Center" />
+    </StackLayout>
+</ContentPage>
