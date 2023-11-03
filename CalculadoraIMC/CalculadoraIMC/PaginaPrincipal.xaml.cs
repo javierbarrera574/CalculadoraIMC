@@ -80,22 +80,7 @@ namespace CalculadoraIMC
                     default:      
                         break;   
                 }     
-            }             
-            else              
-            {                
-                lblResultado.Text = "¡Ingrese valores en los campos. No pueden quedar vacios!";               
-            }
-             
-            #region
-            // DisplayAlert("Resultado", resultado, "Ok");
-            //}
-            //else
-            //{
-            //    DisplayAlert("Datos erróneos",
-            //        "Por favor, llena toda la información",
-            //        "Ok");
-            //}
-            #endregion
+            }                      
         }
 
         private void btLimpiar_Clicked(object sender, EventArgs e)
