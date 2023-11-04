@@ -6,7 +6,7 @@
         <Image Source="Obesidad.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
    Aspect="AspectFit" />
 
-        <Label x:Name="lblObesidad" Text="Hace más, maldito obeso" TextColor="Red" HorizontalOptions="Center" VerticalOptions="Center" 
+        <Label x:Name="lblObesidad" Text="Hace más ejercicio, maldito insecto" TextColor="Red" HorizontalOptions="Center" VerticalOptions="Center" 
    FontSize="24" />
 
         <Button Text="Volver" Clicked="OnBackToMainPageClicked" HorizontalOptions="Center" VerticalOptions="Center" />

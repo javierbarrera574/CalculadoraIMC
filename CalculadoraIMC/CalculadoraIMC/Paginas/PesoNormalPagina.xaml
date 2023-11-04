@@ -6,7 +6,7 @@
         <Image Source="PesoNormal.jpg" HorizontalOptions="Fill" VerticalOptions="Fill"
    Aspect="AspectFit" />
 
-        <Label x:Name="lblPesoNormal" Text="Estas bien, maldito insecto" TextColor="Red" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
+        <Label x:Name="lblPesoNormal" Text="Estás bien, maldito insecto" TextColor="Red" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
    FontSize="24" />
 
         <Button Text="Volver" Clicked="OnBackToMainPageClicked" HorizontalOptions="Center" VerticalOptions="Center" />

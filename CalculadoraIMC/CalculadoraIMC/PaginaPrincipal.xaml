@@ -15,10 +15,18 @@
                HorizontalTextAlignment="Center"
                TextColor="#565168"/>
 
+
+
+            <Label TextColor="Black" Text="" x:Name="lblResultado"
+                   HorizontalOptions="Center"  
+                   FontFamily="italic" 
+                   FontSize="20"
+                   />
+            
             <Label x:Name="lblSexo" Text="Ingrese el sexo" BackgroundColor="Azure"
                    TextColor="Brown"
                    IsVisible="true" IsEnabled="False"/>
-            <Picker x:Name="Sexo" TextColor="Bisque"/>
+            <Picker x:Name="Sexo" TextColor="Black"/>
             <Entry Placeholder="Altura" x:Name="Altura"
                Keyboard="Numeric"/>
             <Entry Placeholder="Peso" x:Name="Peso"
@@ -32,14 +40,6 @@
             <Button x:Name="btLimpiar" Text="Limpiar" Clicked="btLimpiar_Clicked"
                 BackgroundColor="Brown"/>
             <Button x:Name="btSalir" Text="Salir" Clicked="btSalir_Clicked" BackgroundColor="White"/>
-          
-            
-            
-            <Label TextColor="White" Text="-------------" x:Name="lblResultado"
-                   HorizontalOptions="Center"  
-                   FontFamily="italic" 
-                   FontSize="20"
-                   />
         </StackLayout>
     </Grid>
 </ContentPage>

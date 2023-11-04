@@ -31,8 +31,8 @@ namespace CalculadoraIMC
             var imc = peso / (altura*altura);        
             IMC.Text = imc.ToString();        
             string resultado = "";
-      
-            bool Validar = float.TryParse(Altura.Text, out altura)          
+
+            bool Validar = float.TryParse(Altura.Text, out altura)
                 && float.TryParse(Peso.Text, out peso)
                 && int.TryParse(Edad.Text, out edad);
             
@@ -79,8 +79,9 @@ namespace CalculadoraIMC
                         break;  
                     default:      
                         break;   
-                }     
-            }                      
+                }
+                IMC.Text = $"Tu indice de masa corporal es: {imc}";
+            }          
         }
 
         private void btLimpiar_Clicked(object sender, EventArgs e)
@@ -90,6 +91,7 @@ namespace CalculadoraIMC
             Peso.Text = string.Empty;
             Edad.Text = string.Empty;
             Sexo.SelectedItem = null;
+            lblResultado.Text = string.Empty;
         }
 
         private void btSalir_Clicked(object sender, EventArgs e)
